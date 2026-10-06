@@ -10,6 +10,12 @@
     <color name="text_secondary">#6C707A</color>
     <color name="warning">#B77900</color>
     <string name="app_name">WarrantyVault</string>
+    <string name="gcm_defaultSenderId" translatable="false">568187970634</string>
+    <string name="google_api_key" translatable="false">AIzaSyBiZ3hbBghljTEnX-d2r90Rt9i-chTjeO0</string>
+    <string name="google_app_id" translatable="false">1:568187970634:android:ee83f98f59cc673f7e32b3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBiZ3hbBghljTEnX-d2r90Rt9i-chTjeO0</string>
+    <string name="google_storage_bucket" translatable="false">warrantyvault-7cff8.firebasestorage.app</string>
+    <string name="project_id" translatable="false">warrantyvault-7cff8</string>
     <style name="Theme.WarrantyVault" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:textColor">#000000</item>
         <item name="android:fontFamily">sans-serif</item>

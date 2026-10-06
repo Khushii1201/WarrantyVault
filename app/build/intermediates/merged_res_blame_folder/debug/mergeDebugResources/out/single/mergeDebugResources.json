@@ -1,38 +1,50 @@
 [
     {
-        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-47:\\layout_activity_product_details.xml.flat",
-        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-49:\\layout\\activity_product_details.xml"
+        "merged": "com.example.warrantyvault.app-debug-59:/layout_activity_main.xml.flat",
+        "source": "com.example.warrantyvault.app-main-61:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-47:\\layout_fragment_dashboard.xml.flat",
-        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-49:\\layout\\fragment_dashboard.xml"
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-47:\\drawable_bg_card.xml.flat",
-        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-49:\\drawable\\bg_card.xml"
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_activity_add_product.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\activity_add_product.xml"
     },
     {
-        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-47:\\layout_item_product.xml.flat",
-        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-49:\\layout\\item_product.xml"
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_activity_product_details.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\activity_product_details.xml"
     },
     {
-        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-47:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-49:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-47:\\layout_activity_invoice.xml.flat",
-        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-49:\\layout\\activity_invoice.xml"
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\drawable\\bg_card.xml"
     },
     {
-        "merged": "com.example.warrantyvault.app-debug-47:/layout_activity_add_product.xml.flat",
-        "source": "com.example.warrantyvault.app-main-49:/layout/activity_add_product.xml"
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_activity_invoice.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\activity_invoice.xml"
     },
     {
-        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-47:\\layout_fragment_product_list.xml.flat",
-        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-49:\\layout\\fragment_product_list.xml"
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_fragment_product_list.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\fragment_product_list.xml"
     },
     {
-        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-47:\\layout_activity_add_product.xml.flat",
-        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-49:\\layout\\activity_add_product.xml"
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "com.example.warrantyvault.app-debug-59:/layout_fragment_dashboard.xml.flat",
+        "source": "com.example.warrantyvault.app-main-61:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-debug-59:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\mohit\\.gradle\\daemon\\9.3.0\\com.example.warrantyvault.app-main-61:\\layout\\item_product.xml"
     }
 ]

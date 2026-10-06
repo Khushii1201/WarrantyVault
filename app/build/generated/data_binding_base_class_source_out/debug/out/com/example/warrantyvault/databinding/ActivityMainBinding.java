@@ -24,7 +24,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Button btnAdd;
 
   @NonNull
-  public final Button btnDashboard;
+  public final Button btnLogout;
 
   @NonNull
   public final Button btnProducts;
@@ -33,11 +33,11 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FrameLayout fragmentContainer;
 
   private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btnAdd,
-      @NonNull Button btnDashboard, @NonNull Button btnProducts,
+      @NonNull Button btnLogout, @NonNull Button btnProducts,
       @NonNull FrameLayout fragmentContainer) {
     this.rootView = rootView;
     this.btnAdd = btnAdd;
-    this.btnDashboard = btnDashboard;
+    this.btnLogout = btnLogout;
     this.btnProducts = btnProducts;
     this.fragmentContainer = fragmentContainer;
   }
@@ -75,9 +75,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnDashboard;
-      Button btnDashboard = ViewBindings.findChildViewById(rootView, id);
-      if (btnDashboard == null) {
+      id = R.id.btnLogout;
+      Button btnLogout = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogout == null) {
         break missingId;
       }
 
@@ -93,7 +93,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((LinearLayout) rootView, btnAdd, btnDashboard, btnProducts,
+      return new ActivityMainBinding((LinearLayout) rootView, btnAdd, btnLogout, btnProducts,
           fragmentContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -17,7 +17,7 @@ import com.example.warrantyvault.ui.DashboardFragment
 import com.example.warrantyvault.ui.ProductListFragment
 import com.example.warrantyvault.worker.WarrantyWorker
 import java.util.concurrent.TimeUnit
-
+import com.google.firebase.auth.FirebaseAuth
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
@@ -38,8 +38,12 @@ class MainActivity : AppCompatActivity() {
             showFragment(DashboardFragment())
         }
 
-        binding.btnDashboard.setOnClickListener {
-            showFragment(DashboardFragment())
+        binding.btnLogout.setOnClickListener {
+            FirebaseAuth.getInstance().signOut()
+            startActivity(
+                Intent(this, LoginActivity::class.java)
+                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+            )
         }
 
         binding.btnProducts.setOnClickListener {

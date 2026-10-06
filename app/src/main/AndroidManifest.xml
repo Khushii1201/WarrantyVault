@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
@@ -8,22 +9,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WarrantyVault">
 
+        <!-- Login Screen -->
         <activity
-            android:name=".InvoiceActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ProductDetailsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddProductActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Registration Screen -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- Existing Activities -->
+        <activity
+            android:name=".InvoiceActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ProductDetailsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AddProductActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
     </application>
 </manifest>
